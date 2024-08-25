@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        "bg": "rgba(229, 84, 115, 0.1)",
+                        "button": "#E55473",
+                        "card1": "rgba(167, 33, 98, 0.15)",
+                        "card2": "rgba(5, 151, 160, 0.15)",
+                        "card3": "rgba(71, 125, 17, 0.15)",
+                        "footer": "rgba(229, 84, 115, 0.05)"
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <header class="bg-bg">
+        <div class="ml-5 mr-5 lg:ml-20 lg:mr-20">
+            <div class="hero ">
+                <div class="hero-content flex-col-reverse gap-10   lg:flex-row justify-evenly items-center lg:gap-40">
+
+                    <div class="w-full lg:w-1/2">
+                        <h1 class="text-5xl font-bold">Let's make beautiful flowers a part of your life.</h1>
+                        <p class="py-6">
+                            It is a long established fact that a reader will be distracted by the readable content of a
+                            page
+                            when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                            normal
+                            distribution of letters.
+                        </p>
+                        <button class="btn bg-button text-white">Shop Now</button>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <img src="./Flower Asset/pngwing 10.png" class="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="mt-10 ml-5 mr-5 lg:ml-32 lg:mr-32 lg:mt-20">
+            <h1 class="text-3xl font-bold text-center mt-10">Our Featured Flowers</h1>
+            <p class="text-center font-base mt-3">It is a long established fact that a reader will be distracted by the
+                readable content of a page when looking at its layout.</p>
+
+            <div class="mt-10">
+
+                <div class="grid gap-10 lg:grid-cols-3 lg:gap-10">
+                    <div>
+                        <div class="bg-card1 pt-16 h-full rounded-t-full">
+                            <img class="mx-auto" src="./Flower Asset/pngwing 6.png" alt="">
+                        </div>
+                        <div class="text-center mt-4 mb-4">
+                            <a class="font-bold" href="">Pink Flower Tree</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bg-card2 pt-16 h-full rounded-t-full">
+                            <img class="mx-auto" src="./Flower Asset/pngwing 5.png" alt="">
+                        </div>
+                        <div class="text-center mt-4 mb-4">
+                            <a class="font-bold" href="">Pink Flower Tree</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bg-card3 pt-16 h-full rounded-t-full">
+                            <img class="mx-auto" src="./Flower Asset/pngwing 7.png" alt="">
+
+                        </div>
+                        <div class="text-center mt-4">
+                            <a class="font-bold" href="">Pink Flower Tree</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="mt-20 ml-5 mr-5 lg:ml-32 lg:mr-32 lg:mt-32">
+            <div class="grid gap-10 lg:flex justify-evenly  bg-base-200 py-16">
+                <div>
+                    <img class="mx-auto" src="./Flower Asset/Group 57.png" alt="" srcset="">
+                    <p class="text-center">Same Day Delivery. Click & Collect.</p>
+                </div>
+                <div>
+                    <img class="mx-auto" src="./Flower Asset/Group 58.png" alt="" srcset="">
+                    <p class="text-center">Fresh Flowers. Local Growers.</p>
+                </div>
+                <div>
+                    <img class="mx-auto" src="./Flower Asset/Group 59.png" alt="" srcset="">
+                    <p class="text-center">24/7 Free Support.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="bg-footer">
+            <div class="mt-20 ml-5 mr-5 lg:ml-32 lg:mr-32 lg:mt-32 ">
+                <div class="ml-5 mr-5 lg:ml-20 lg:mr-20">
+                    <div class="hero ">
+                        <div
+                            class="hero-content flex-col-reverse gap-10   lg:flex-row justify-evenly items-center lg:gap-40">
+
+                            <div class="w-full lg:w-1/2">
+                                <h1 class="text-5xl font-bold">Hot Deal ! Sale Up To 25% <span class="text-red-500">
+                                        Off</span></h1>
+                                <p class="py-6">
+                                    It is a long established fact that a reader will be distracted by the readable
+                                    content
+                                    of a page when looking at its layout.
+                                </p>
+                                <button class="btn bg-button text-white">Sing Up</button>
+                            </div>
+                            <div class="">
+                                <img src="./Flower Asset/pngwing 8.png" class="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mt-20 ml-5 mr-5 lg:ml-32 lg:mr-32 lg:mt-32">
+            <h1 class="text-3xl font-bold text-center mt-10">Instagram</h1>
+            <p class="text-center font-base mt-3">It is a long established fact that a reader will be distracted by the
+                readable content of a page when looking at its layout.</p>
+            <div class="mt-10 grid gap-10 lg:grid-cols-4 lg:gap-10">
+                <img class="mx-auto" src="./Flower Asset/Flower 01.png" alt="" srcset="">
+                <img class="mx-auto" src="./Flower Asset/Rectangle 4.png" alt="" srcset="">
+                <img class="mx-auto" src="./Flower Asset/Rectangle 5.png" alt="" srcset="">
+                <img class="mx-auto" src="./Flower Asset/Rectangle 6.png" alt="" srcset="">
+
+
+            </div>
+        </section>
+
+        <section class="mt-20 ml-5 mr-5 lg:ml-32 lg:mr-32 lg:mt-32 pb-2 lg:pb-20">
+            <div class="">
+                <img src="./Flower Asset/Rectangle 9.png" alt="" srcset="">
+                <div class="text-center -mt-20 lg:-mt-48"> 
+                    <input type="text" placeholder="Enter Your Email" class="input input-bordered w-1/2  " />
+                    <button class="btn bg-button text-white">Subscribe</button>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <footer class=" bg-black mt-20 lg:mt-32">
+            <div class=" ml-5 mr-5 lg:ml-32 lg:mr-32  py-10">
+                <h1 class="text-white text-3xl font-bold text-center mt-10"><span class="text-button">Flower</span> Shop
+                </h1>
+                <p class="text-white text-center font-base mt-3">It is a long established fact that a reader will be
+                    distracted by the
+                    readable content of a page when looking at its layout.</p>
+                <p class=" text-white text-center font-base mt-3">@2020-2023, FlowerShop.com. All rights reserved. </p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
